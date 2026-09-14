@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(64, 229, 64);
+}
+span{
+    /* width: 250px; */
+    /* height: 250px; */
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(95, 95, 215);
+}
+h1{
+    font-size: 40px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork_Form</title>
+    <style>
+        .pizza-options{
+            display: flex;
+            gap: 40px;              /* Space between fieldsets */
+            justify-content: center; /* Optional */
+            margin-top: 20px;
+        }
+
+        .pizza-options fieldset{
+            width: 360px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+        <h3 style="text-align: center;">Novell Services Login</h3>
+            <fieldset>
+                <label for="text">Username :</label>
+                <input type="text" id="text" placeholder="Enter Your name">
+                <br><br>
+                <label for="password">Password :</label>
+                <input type="password" id="password" placeholder="Enter Your Password">
+                <br><br>
+                <label for="city">City of Employment :</label>
+                <input type="text" id="city" placeholder="Enter Your City">
+                <br><br>
+                <label for="web">Web Server :</label>
+                <select name="web" id="web">
+                    <option value="" selected disabled>-- Choose a server --</option>
+                    <option value="Google">Google</option>
+                    <option value="Yahoo">Yahoo</option>
+                    <option value="Twitter">Twitter</option>
+                </select>
+                <br><br>
+                <label> Please Specify Your Role :  </label><br>
+                <input type="radio" id="admin" name="role">
+                <label for="admin">Admin</label><br>
+                <input type="radio" id="engineer" name="role">
+                <label for="engineer">Engineer</label><br>
+                <input type="radio" id="manager" name="role">
+                <label for="manager">Manager</label><br>
+                <input type="radio" id="guest" name="role">
+                <label for="guest">Guest</label><br>
+                <br><br>
+                <label>Single Sign-on to the Following : </label><br>
+                <input type="checkbox" id="mail" >
+                <label for="mail">Mail</label><br>
+                <input type="checkbox" id="pay">
+                <label for="pay">Pay-Off </label><br>
+                <input type="checkbox" id="service">
+                <label for="service">Service</label><br>
+                <br><br>
+                <button type="button">Login</button>
+                <button type="button">Reset</button>
+            </fieldset>
+        
+        </div>
+        <div>
+            <h1 style="text-align: center;">Pete's Pizza Delivery</h1>
+            <br>
+            <h2 style="text-align: center;">Online Order Form </h2>
+            <br>
+            <h4 style="text-align: center;">*required fields</h4>   
+            <fieldset>
+                <legend>Customer details </legend>
+                <label for="name">Name : </label>
+                <input type="text" id="name" placeholder="Enter Your name :" required><br><br>
+                <label for="address">Address : </label>
+                <input type="text" id="address" placeholder="Enter Your Address :" required><br><br>
+                <label for="add">Town/City  : </label>
+                <input type="text" id="add" placeholder="Enter Your Town/city :" required><br><br>
+                <label for="postcode">PostCode : </label>
+                <input type="number" id="postcode" placeholder="Enter Your PinCode :" required min="6" maxlength="6" minlength="6"><br><br>
+                <label for="mobile">Tel : </label>
+                <input type="number" id="mobile" placeholder="Enter Your Telephone Number :" required><br><br>
+                <label for="email">Email : </label>
+                <input type="email" id="email" placeholder="Enter Your Email :" required><br><br>
+
+            </fieldset>
+        </div>
+        
+        <div class="pizza-options">
+
+        <fieldset>
+        <legend>Topping *</legend>
+            <input type="radio" name="topping" id="margherita">
+            <label for="margherita">Margherita</label><br>
+
+            <input type="radio" name="topping" id="four">
+            <label for="four">Four Seasons</label><br>
+
+            <input type="radio" name="topping" id="meat">
+            <label for="meat">Meat Feast</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Size *</legend>
+
+            <input type="radio" name="size" id="small">
+            <label for="small">Small</label><br>
+
+            <input type="radio" name="size" id="medium">
+            <label for="medium">Medium</label><br>
+
+            <input type="radio" name="size" id="large">
+            <label for="large">Large</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Extras</legend>
+
+            <input type="checkbox" id="mushrooms">
+            <label for="mushrooms">Mushrooms</label><br>
+
+            <input type="checkbox" id="peppers">
+            <label for="peppers">Green peppers</label><br>
+
+            <input type="checkbox" id="anchovies">
+            <label for="anchovies">Anchovies</label><br>
+
+            <input type="checkbox" id="cheese">
+            <label for="cheese">Extra cheese</label>
+        </fieldset>
+
+        </div>
+        <div>
+            <fieldset>
+                <legend>Delivery</legend>
+                <label for="date">Preferred Delivery Time : </label>
+                <input type="date" id="date" placeholder=""><br><br>
+                <label>Delivery Instructions :</label><br><br>
+                <textarea rows="5" cols="120" placeholder="Enter Your Intructions here !"></textarea>
+            </fieldset>
+        </div>
+        
+
+    </form>
+</body>
+</html>

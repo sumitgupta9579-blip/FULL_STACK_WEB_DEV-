@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1 >Forms</h1>
+        <form action="welcome.html" target="_blank">
+            <fieldset>
+            <legend>Enter Your Details </legend>
+            <label for="fullname">Full Name :</label>
+            <input type="text" id="fullname" placeholder="Enter Your name : " required>
+            <br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="Enter Your email : " required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Your password : " required>
+            <br><br>
+            <h4>Select Your Subject:</h4>
+            <label for="checkbox"> DBMS </label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> O.S </label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> C.T </label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> DSA </label>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> AOA </label>
+            <input type="checkbox" id="checkbox">
+            <br><br>
+            <label for="number">Enter Your Mobile Number :</label>
+            <input type="number" id="number" placeholder="Enter your mobile number" minlength="10" min="0" maxlength="10">
+            <br><br>
+            <label for="male">Select Your Gender :  </label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="other">Others</label>
+            <input type="radio" id="other" name="gender">
+            <br><br>
+            <label for="DOB"> Date of birth : </label>
+            <input type="date" id="DOB" placeholder="Birthdate">
+            <br><br>
+            <label for="file">Upload file : </label>
+            <input type="file" id="file" placeholder="Upload your document here !">
+            <br><br>
+            <input type="submit">
+            <button type="submit">Submit Form </button>
+            <br><br>
+            <label for="city">Select Your City : </label>
+            <select name="city" id="city">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Kolkata">kolkata</option>
+                <option value="Chennai">chennai</option>
+                <option value="Gurgaon">Gurgaon</option>
+
+            </select>
+
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>

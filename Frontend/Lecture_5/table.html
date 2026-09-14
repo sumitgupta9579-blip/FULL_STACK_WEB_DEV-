@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,tr,td ,th,tfoot{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> Time Table </h1>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <h2>Students Score</h2>
+        <table>
+            <thead >
+                <tr>
+                    <th>Students / Subjects</th>
+                    <th>Maths</th>
+                    <th>English</th>
+                    <th>Hindi</th>
+                    <th>Science</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Anu</td>
+                    <td>45</td>
+                    <td>84</td>
+                    <td>15</td>
+                    <td>94</td>
+                    </tr>
+                <tr>
+                    <td>Baby</td>
+                    <td>45</td>
+                    <td>84</td>
+                    <td>15</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>Rohi</td>
+                    <td>45</td>
+                    <td>84</td>
+                    <td>15</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>Ankit</td>
+                    <td>45</td>
+                    <td>84</td>
+                    <td>15</td>
+                    <td>94</td>
+                </tr>
+            </tbody>
+            <caption> Students Marks sheet</caption>
+            <tfoot>
+                <th> Total </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tfoot>
+        </table>
+
+        <h2>Row Span and Col Span</h2>
+        <table>
+            <!-- <thead> -->
+                 <tr>
+                    <td></td>
+                    <td colspan="2">Average</td>
+                    <!-- <th></th> -->
+                    <td>Red Eyes</td>
+                </tr>
+            <!-- </thead> -->
+            <!-- <tbody> -->
+                <tr>
+                    <td></td>
+                    <th>Height</th>
+                    <th>Weigth</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Males</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Females</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+                <caption>A test table with merge cell</caption>
+            <!-- </tbody> -->
+            
+        </table>
+    </div>
+</body>
+</html>

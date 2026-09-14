@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    /* background-color: blanchedalmond; */
+    font-size: 100px;
+}
+#wrapper{
+
+    /* background:linear-gradient(to left,red,blue); */
+    /* background:linear-gradient(45deg,red,blue,yellow,pink,green); */
+    /* background: radial-gradient(circle,red,green); */
+    /* background-image: conic-gradient(red,yellow,green); */
+
+
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D); */
+
+    height: 800px;
+
+
+    /* background-repeat: no-repeat; */
+    /* background-position: right; */
+    /* background-position:bottom ; */
+    /* border:  1px solid black; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* border-width: 2.5px;
+
+
+    border-style: solid;
+    border-color: red;
+    border:  15px solid
+    navy; */
+
+
+    /* border: 10px solid blueviolet; */
+    /* border-radius: 50px  ;
+    border-top-left-radius: 0px; */
+    /* padding: 40px; */
+    /* margin: 25px; */
+
+    /* width: 10px; */
+    box-sizing: border-box;
+}
+.redborder{
+    border: 1px solid red;
+}
+p{
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    /* padding: top right bottom left; */
+    padding: 40px 25px 15px 45px;
+    
+    
+}
+#daisy{
+    margin:auto;
+    text-align: center;
+    
+}
+#mahi{
+    
+    width: 100px;
+    margin: auto;
+} 
+span{
+    /* margin: auto; */
+    width: 500px;
+    height: 500px;
+    /* padding: 10px; */
+    /* margin-left: 40px; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 35px; */
+    display: inline-block;
+}
+#bholu{
+    padding: 4px;
+    
+}

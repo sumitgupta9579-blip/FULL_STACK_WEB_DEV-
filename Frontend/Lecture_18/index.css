@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    transition-duration: 2s;
+    /* transition-property: all; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition-delay: 2s;
+
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-name: sumit;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+
+    animation-name: sneha;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+
+}
+@keyframes sumit{
+    from{
+        background-color: red;
+        
+    }
+    to{
+        background-color: green;
+        transform: translate(30px ,50px);
+    }
+}
+
+@keyframes sneha {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: pink;
+    }
+    75%{
+        background-color: rgb(238, 172, 29);
+    }
+    100%{
+        background-color: green;
+        transform: translate(30px ,50px);
+    }
+
+}
+
+.box:hover{
+    background-color: purple;
+    width: 500px;
+}
+.container:hover >div{
+    transform: translate(100px ,100px);
+    transform: scale(2);
+    /* width: 1300px; */
+}
+/* .linear {
+    background-color: cornflowerblue;
+     transition-timing-function: linear;
+}
+.ease{
+     transition-timing-function: ease;
+     background-color: cadetblue;
+}
+.ease_in{
+     transition-timing-function: ease-in;
+     background-color: burlywood;
+}
+.ease_out{
+     transition-timing-function: ease-out;
+     background-color: darkcyan;
+}
+.ease_in_out{
+     transition-timing-function: ease-in-out;
+     background-color: darkkhaki;
+}
+
+ */
+
+ @keyframes nitin {
+    from{
+
+    }
+    to{
+        transform: translate(0,-5px) scale(1.1) rotate(3deg);
+    }
+ }
+.btn{
+    background-color: rgb(128, 128, 224);
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 50px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    animation:nitin 2s linear 0s infinite alternate ;
+}
+.btn:hover{
+    /* transform: translate(0,-5px) scale(1.1) rotate(3deg); */
+    /* box-shadow: 0p 10px 10px rgba(121,121,121,0.312); */
+}
+
+
+
+
+
+
+
+
+
